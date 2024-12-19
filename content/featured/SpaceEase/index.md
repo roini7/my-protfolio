@@ -12,4 +12,4 @@ tech:
   - Google API
 ---
 
-A private parking rental app solving real-world challenges in urban parking. Features real-time parking spot rendering on an interactive map, with advanced filters. Built with Next.js and Tailwind CSS for a seamless user experience, and powered by a scalable back-end using Prisma ORM, Supabase, and React Query for efficient data management.
+Space-Ease is a platform designed to **bridge the gap between parking spot owners and individuals** looking for available parking. It features real-time rendering of parking spots on an interactive map, offering users a seamless and intuitive experience. Built with Next.js, Tailwind CSS, Prisma ORM, Supabase, and React Query for a seamless frontend, efficient database management, and data fetching.

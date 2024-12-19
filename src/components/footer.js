@@ -37,7 +37,7 @@ const Footer = () => {
   const socialMedia = [
     {
       name: 'GitHub',
-      url: 'https://github.com/roini7',
+      url: 'https://github.com/RoiNir',
     },
   ];
 
