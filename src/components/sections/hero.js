@@ -72,24 +72,13 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a computer science student & software engineer passionate about building scalable,
-        user-focused software that solves real-world problems. Specializing in developing efficient
-        and accessible applications, with experience in real-time systems, web development, and
-        cybersecurity, I aim to create impactful and elegant solutions.
+        Software engineer dedicated to crafting efficient, accessible, and user-focused solutions,
+        with expertise in real-time systems, web development, and cybersecurity.
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Subscribe to my newsletter
-    </a>
-  );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>
