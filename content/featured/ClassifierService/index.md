@@ -1,7 +1,7 @@
 ---
 date: '2024-01-01'
 title: 'Classifier Service'
-cover: './knn-classifier-demo.png'
+cover: './knn-demo.png'
 github: 'https://github.com/aliktepl/knn-classifier'
 external: 'https://github.com/aliktepl/knn-classifier?tab=readme-ov-file#code-description'
 tech:
