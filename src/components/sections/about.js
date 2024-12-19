@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['JavaScript', 'TypeScript', 'Next', 'React', 'Node.js', 'Python'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +135,22 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
-            </p>
-
-            <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              Hello! My name is Roi Nir, and I’m a computer science student & software engineer
+              passionate about building software that solves real-world problems. My recent work
+              includes developing{' '}
+              <a href="https://cyber.org.il/" target="_blank" rel="noreferrer">
+                educational programs
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              at the Cyber Education Center, where I mentor students and teach cyber fundamentals
+              such as network analysis, encryption, pen-testing, and reverse engineering.
+            </p>
+
+            <p>
+              One of my most exciting recent projects is <strong>Space-Ease</strong>, a private
+              parking spot rental application. Built with the latest web technologies like Next.js
+              and Tailwind CSS, it enables seamless real-time parking spot rendering and an
+              efficient, user-friendly interface. This project reflects my dedication to creating
+              scalable, innovative solutions that address real-world needs.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -173,7 +165,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/linkedin-profile-white-bg.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
